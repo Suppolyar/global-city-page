@@ -1,4 +1,4 @@
-# Guild Of Heroes Page
+# Global City Page
 
 ## Описание
 
