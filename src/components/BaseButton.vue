@@ -3,7 +3,7 @@
   <a
     target="_blank"
     href="https://store.my.games/app/5728"
-    class="rounded-3xl custom-button py-8 px-20 font-[800	text-[33px] text-white"
+    class="rounded-3xl custom-button py-8 px-20 font-[800	text-[33px] text-white transition duration-150 hover:scale-105"
   >
     Перейти
   </a>
