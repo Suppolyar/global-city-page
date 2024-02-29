@@ -1,10 +1,12 @@
 <template>
-  <button
-    @click="onBtnClick"
-    class="rounded-3xl custom-button py-10 px-16 font-[800]	text-[33px] text-white uppercase"
+
+  <a
+    target="_blank"
+    href="https://store.my.games/app/5728"
+    class="rounded-3xl custom-button py-8 px-20 font-[800	text-[33px] text-white transition duration-150 hover:scale-105"
   >
-    Скачать
-  </button>
+    Перейти
+  </a>
 </template>
 
 <script setup>
@@ -12,16 +14,11 @@ defineOptions({
   name: "BaseButton"
 });
 
-const onBtnClick = () => {
-  window.__GEM.detectAndDownload(
-    "13.2013983",
-    "https://static.gc.my.games/HawkedLoader.exe"
-  );
-};
 </script>
 
 <style lang="scss" scoped>
 .custom-button {
+  font-family: "Inter", sans-serif;
   background: linear-gradient(180.00deg, rgb(255, 191, 48),rgb(255, 232, 150) 11.273%,rgb(255, 209, 76) 81.273%,rgb(235, 178, 14) 86.773%,rgb(248, 136, 4) 100%);
   border-bottom: 6px solid rgb(230, 64, 32);
   border-left: 2px solid rgb(230, 64, 32);

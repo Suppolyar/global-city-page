@@ -7,12 +7,12 @@
       <div
         class="flex h-full flex-col items-center justify-center gap-5 py-16 text-lg 2xl:gap-4"
       >
-        <MainLogo class=" mb-10" />
+        <MainLogo class="mb-12" />
 
-        <InfoBlock size="large" class="relative">
+        <InfoBlock size="large" class="relative -translate-x-0.5">
           <quotes class="absolute top-1/2 l-1/2  -translate-y-1/2" />
           <div class="relative z-10 w-[390px] translate-x-20">
-            <p class="mb-3">Игра больше не публикуется на площадке. Если вы играли в проект ранее, перейдите на сайт
+            <p class="mb-6">Игра больше не публикуется на площадке. Если вы играли в проект ранее, перейдите на сайт
               разработчика и
               авторизуйтесь, чтобы сохранить своего
               персонажа.
@@ -21,8 +21,8 @@
             <p>Нажимая "Перейти" вы соглашаетесь с передачей ваших
               данных
               компании MY.GAMES B.V. и их обработкой согласно
-              Политике конфиденциальности портала <a target="_blank"
-                                                     href="https://documentation.my.games/terms/mygames_privacy">MY.GAMES</a>
+              <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
+                конфиденциальности </a> портала MY.GAMES
             </p>
           </div>
         </InfoBlock>
@@ -30,17 +30,16 @@
         <BaseButton class="mt-10" />
 
         <InfoBlock size="medium">
-          Скачивая <a href="" class="hover:underline" target="_blank">MY.GAMES Launcher</a> вы соглашаетесь с
+          Скачивая MY.GAMES Launcher вы соглашаетесь с
           передачей
           ваших данных компании MY.GAMES B.V. и их обработкой согласно
-          <a class="hover:underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
+          <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
             конфиденциальности </a>
           портала MY.GAMES
         </InfoBlock>
       </div>
     </div>
   </div>
-
 </template>
 
 <script setup lang="ts">
