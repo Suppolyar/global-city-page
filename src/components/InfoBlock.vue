@@ -1,5 +1,5 @@
 <template>
-  <div :class="setCurrentBlockSize()" class="text-base">
+  <div :class="setCurrentBlockSize()" class=" leading-[140%]">
     <slot />
   </div>
 </template>
@@ -12,9 +12,9 @@ const props = defineProps<{
 const setCurrentBlockSize = () => {
   switch (props.size) {
     case "medium":
-      return "w-[450px] py-5 px-[30px] bg-white rounded-2xl";
+      return "w-[408px] py-5 px-[30px] bg-white rounded-2xl text-base mt-7";
     case "large":
-      return "w-[528px]";
+      return "w-[528px] text-lg";
   }
 };
 </script>
