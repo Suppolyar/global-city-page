@@ -18,7 +18,7 @@
               персонажа.
             </p>
 
-            <p>Нажимая "Перейти" вы соглашаетесь с передачей ваших
+            <p>Нажимая "Перейти", вы соглашаетесь с передачей ваших
               данных
               компании MY.GAMES B.V. и их обработкой согласно
               <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
@@ -30,7 +30,7 @@
         <BaseButton class="mt-10" />
 
         <InfoBlock size="medium">
-          Скачивая MY.GAMES Launcher вы соглашаетесь с
+          Скачивая MY.GAMES Launcher, вы соглашаетесь с
           передачей
           ваших данных компании MY.GAMES B.V. и их обработкой согласно
           <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
