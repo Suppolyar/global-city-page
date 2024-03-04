@@ -22,21 +22,12 @@
               данных
               компании MY.GAMES B.V. и их обработкой согласно
               <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
-                конфиденциальности </a> портала MY.GAMES
+                конфиденциальности</a> портала MY.GAMES
             </p>
           </div>
         </InfoBlock>
 
         <BaseButton class="mt-10" />
-
-        <InfoBlock size="medium">
-          Скачивая MY.GAMES Launcher, вы соглашаетесь с
-          передачей
-          ваших данных компании MY.GAMES B.V. и их обработкой согласно
-          <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
-            конфиденциальности </a>
-          портала MY.GAMES
-        </InfoBlock>
       </div>
     </div>
   </div>
